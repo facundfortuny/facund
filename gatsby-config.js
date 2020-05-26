@@ -40,11 +40,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-XXXXXXXX-X',
+        trackingId: 'UA-42936927-1',
         anonymize: true,
       },
     },
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`
+    `gatsby-plugin-robots-txt`,
   ],
 };
