@@ -2,14 +2,14 @@ import React from 'react';
 
 import '../css/style.scss';
 
-import Helmet from './helmet';
+import SEO from './seo';
 import Background from './background';
 import Header from './header';
 import Footer from './footer';
 
 const Layout = ({ children }) => (
   <>
-    <Helmet />
+    <SEO />
     <Background>
       <Header />
     </Background>
