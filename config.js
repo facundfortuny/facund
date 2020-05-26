@@ -8,7 +8,6 @@ module.exports = {
   manifestDisplay: 'standalone',
   heading: 'Facund Fortuny Pons',
   siteUrl: 'http://www.facundfortuny.com',
-  siteImage: '/facundfortuny.png',
   description: 'Facund Fortuny Pons, Frontend Developer',
   keywords: 'Facund Fortuny Pons Backcoder Frontend Developer Software Engineer Menorca Barcelona Remote',
   twitterName: '@backcoder',

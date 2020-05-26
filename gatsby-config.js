@@ -5,7 +5,6 @@ module.exports = {
   siteMetadata: {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
-    siteImage: config.siteImage,
     description: config.description,
     keywords: config.keywords,
     twitterName: config.twitterName,

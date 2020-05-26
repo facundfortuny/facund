@@ -8,7 +8,6 @@ const getSiteMetadata = graphql`
       siteMetadata {
         title
         siteUrl
-        siteImage
         description
         keywords
         twitterName
