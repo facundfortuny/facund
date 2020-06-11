@@ -100,7 +100,7 @@ const Timeline = ({ className }) => {
           </div>
           <div className="content">
             <h3 className="title is-4">Angular 2 Consultant at IC24</h3>
-            <h4 className="subtitle is-6">July 2018 - December 2018</h4>
+            <h4 className="subtitle is-6">July 2017 - December 2017</h4>
             <p className="is-4">
               Developed a Rostering System that enabled internal users to do
               shift allocations, workforce management, reporting and
@@ -110,7 +110,7 @@ const Timeline = ({ className }) => {
           </div>
         </div>
         <div className="column is-one-fifth third-column is-ball has-text-centered is-right full">
-          <div className="circle">2018</div>
+          <div className="circle">2017</div>
         </div>
       </div>
 
