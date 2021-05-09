@@ -32,6 +32,7 @@ module.exports = {
         background_color: config.manifestBackgroundColor,
         theme_color: config.manifestThemeColor,
         display: config.manifestDisplay,
+        icon: config.manifestIcon,
       },
     },
     `gatsby-plugin-sass`,

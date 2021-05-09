@@ -6,6 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#CDF2E2',
   manifestThemeColor: '#CDF2E2',
   manifestDisplay: 'standalone',
+  manifestIcon: 'src/images/favicon/favicon.png',
   heading: 'Facund Fortuny Pons',
   siteUrl: 'https://www.facundfortuny.com',
   description: 'Facund Fortuny Pons, Frontend Developer',

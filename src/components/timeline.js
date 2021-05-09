@@ -6,6 +6,13 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 const getImages = graphql`
   query {
+    inbestme: file(relativePath: { eq: "timeline/inbestme.png" }) {
+      childImageSharp {
+        fixed(width: 200) {
+          ...GatsbyImageSharpFixed_withWebp_tracedSVG
+        }
+      }
+    }
     dxc: file(relativePath: { eq: "timeline/dxc.png" }) {
       childImageSharp {
         fixed(width: 200) {
@@ -56,18 +63,17 @@ const Timeline = ({ className }) => {
           <div className="content">
             <Img
               className="image-logo"
-              fixed={images.dxc.childImageSharp.fixed}
-              alt="Scoota"
+              fixed={images.inbestme.childImageSharp.fixed}
+              alt=""
             />
           </div>
           <div className="content">
-            <h3 className="title is-4">Lead Frontend Developer at DXC</h3>
-            <h4 className="subtitle is-6">January 2018 - Present</h4>
+            <h3 className="title is-4">Lead Frontend Developer at Inbestme</h3>
+            <h4 className="subtitle is-6">November 2020 - Present</h4>
             <p className="is-4">
-              Assist with the implementation of a new Manufacturing Execution
-              System (MES). Manage a remote team, with Scrum tasks, distributing
-              workload, code reviewing and training. Application built using
-              Angular 8, Electron, Ionic 4, RxJS.
+              Leading a remote team building Inbestme Platform using the latest
+              technologies. Working closely with the CTO and Design Team.
+              Application built using VueJS and .Net.
             </p>
           </div>
         </div>
@@ -94,23 +100,23 @@ const Timeline = ({ className }) => {
           <div className="content">
             <Img
               className="image-logo ic24"
-              fixed={images.ic24.childImageSharp.fixed}
-              alt="Scoota"
+              fixed={images.dxc.childImageSharp.fixed}
+              alt="DXC"
             />
           </div>
           <div className="content">
-            <h3 className="title is-4">Angular 2 Consultant at IC24</h3>
-            <h4 className="subtitle is-6">July 2017 - December 2017</h4>
+            <h3 className="title is-4">Lead Frontend Developer at DXC</h3>
+            <h4 className="subtitle is-6">January 2018 - October 2020</h4>
             <p className="is-4">
-              Developed a Rostering System that enabled internal users to do
-              shift allocations, workforce management, reporting and
-              forecasting. Application built using Angular 4, Webpack, Electron,
-              Redux (NGRX), CSS3, HTML5 and Bootstrap 4.
+              Assist with the implementation of a new Manufacturing Execution
+              System (MES). Manage a remote team, with Scrum tasks, distributing
+              workload, code reviewing and training. Application built using
+              Angular 8, Electron, Ionic 4, RxJS.
             </p>
           </div>
         </div>
         <div className="column is-one-fifth third-column is-ball has-text-centered is-right full">
-          <div className="circle">2017</div>
+          <div className="circle">2018</div>
         </div>
       </div>
 
@@ -128,24 +134,24 @@ const Timeline = ({ className }) => {
 
       <div className="columns job-content">
         <div className="column is-one-fifth first-column is-ball is-left full has-text-centered">
-          <div className="circle">2014</div>
+          <div className="circle">2017</div>
         </div>
         <div className="column has-text-left second-column">
           <div className="content">
             <Img
               className="image-logo"
-              fixed={images.scoota.childImageSharp.fixed}
-              alt="Scoota"
+              fixed={images.ic24.childImageSharp.fixed}
+              alt="IC24"
             />
           </div>
           <div className="content">
-            <h3 className="title is-4">Full Stack Developer at Scoota</h3>
-            <h4 className="subtitle is-6">October 2014 - June 2017</h4>
+            <h3 className="title is-4">Angular 2 Consultant at IC24</h3>
+            <h4 className="subtitle is-6">July 2017 - December 2017</h4>
             <p className="is-4">
-              Together with the product development team, I helped developing
-              multiple web applications and services. Using technologies such as
-              Angular 2, Angular JS, Webpack, NodeJS, Serverless, Python,
-              Django, Postgres SQL, Redshift, MySQL, CSS3, HTML5 and Git.
+              Developed a Rostering System that enabled internal users to do
+              shift allocations, workforce management, reporting and
+              forecasting. Application built using Angular 4, Webpack, Electron,
+              Redux (NGRX), CSS3, HTML5 and Bootstrap 4.
             </p>
           </div>
         </div>
@@ -166,26 +172,24 @@ const Timeline = ({ className }) => {
 
       <div className="columns job-content">
         <div className="column is-one-fifth first-column is-ball has-text-centered is-right full">
-          <div className="circle">2013</div>
+          <div className="circle">2014</div>
         </div>
         <div className="column has-text-right-desktop second-column">
           <div className="content">
             <Img
               className="image-logo"
-              fixed={images.truekkea.childImageSharp.fixed}
-              alt="Truekkea"
+              fixed={images.scoota.childImageSharp.fixed}
+              alt="Scoota"
             />
           </div>
           <div className="content">
-            <h3 className="title is-4">
-              Full Stack Web Developer, at Truekkea
-            </h3>
-            <h4 className="subtitle is-6">September 2013 - August 2015</h4>
-
+            <h3 className="title is-4">Full Stack Developer at Scoota</h3>
+            <h4 className="subtitle is-6">October 2014 - June 2017</h4>
             <p className="is-4">
-              I collaborated on the creation of the startup Truekkea. I was
-              responsible for the development of the web application using Ruby
-              on Rails, Bootstrap, Slim and Compass.
+              Together with the product development team, I helped developing
+              multiple web applications and services. Using technologies such as
+              Angular 2, Angular JS, Webpack, NodeJS, Serverless, Python,
+              Django, Postgres SQL, Redshift, MySQL, CSS3, HTML5 and Git.
             </p>
           </div>
         </div>
@@ -207,10 +211,50 @@ const Timeline = ({ className }) => {
       </div>
 
       <div className="columns job-content">
-        <div className="column is-one-fifth first-column is-ball has-text-centered top">
-          <div className="circle">2012</div>
+        <div className="column is-one-fifth first-column is-ball is-left full has-text-centered">
+          <div className="circle">2013</div>
         </div>
         <div className="column has-text-left second-column">
+          <div className="content">
+            <Img
+              className="image-logo"
+              fixed={images.truekkea.childImageSharp.fixed}
+              alt="Truekkea"
+            />
+          </div>
+          <div className="content">
+            <h3 className="title is-4">
+              Full Stack Web Developer, at Truekkea
+            </h3>
+            <h4 className="subtitle is-6">September 2013 - August 2015</h4>
+
+            <p className="is-4">
+              I collaborated on the creation of the startup Truekkea. I was
+              responsible for the development of the web application using Ruby
+              on Rails, Bootstrap, Slim and Compass.
+            </p>
+          </div>
+        </div>
+        <div className="column is-one-fifth third-column"></div>
+      </div>
+
+      <div className="columns timeline">
+        <div className="column is-one-fifth corner-container">
+          <div className="corner top-right"></div>
+        </div>
+        <div className="column">
+          <hr></hr>
+        </div>
+        <div className="column is-one-fifth corner-container">
+          <div className="corner bottom-left"></div>
+        </div>
+      </div>
+
+      <div className="columns job-content">
+        <div className="column is-one-fifth first-column is-ball has-text-centered is-right full">
+          <div className="circle">2012</div>
+        </div>
+        <div className="column has-text-right-desktop second-column">
           <div className="content">
             <Img
               className="image-logo"
@@ -231,7 +275,9 @@ const Timeline = ({ className }) => {
             </p>
           </div>
         </div>
-        <div className="column is-one-fifth third-column"></div>
+        <div className="column is-one-fifth third-column is-ball has-text-centered is-right full">
+          <div className="circle">2012</div>
+        </div>
       </div>
     </div>
   );

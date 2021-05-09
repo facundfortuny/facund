@@ -41,8 +41,8 @@ const About = ({ className }) => {
                     multicultural teams and using different agile methodologies.
                     Lately, as a freelancer, I have been working on multiple
                     frontend projects using technologies like Javascript,
-                    Angular, React, GatsbyJS, NodeJS, Electron, Ionic, GraphQL,
-                    Webpack.
+                    Angular, VueJS, React, GatsbyJS, NodeJS, Electron, Ionic,
+                    GraphQL, Webpack.
                   </p>
                 </div>
               </div>
