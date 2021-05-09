@@ -11,7 +11,7 @@ module.exports = {
   siteUrl: 'https://www.facundfortuny.com',
   description: 'Facund Fortuny Pons, Frontend Developer',
   keywords:
-    'Facund Fortuny Pons Backcoder Frontend Developer Software Engineer Menorca Barcelona Remote',
+    'Facund Fortuny Pons Backcoder Frontend Developer Software Engineer Menorca Valencia Barcelona Remote',
   twitterName: '@backcoder',
   // social
   twitter: 'https://twitter.com/backcoder',

@@ -25,14 +25,14 @@ const About = ({ className }) => {
                 </div>
                 <div className="column vertical-align">
                   <p className="is-4 has-text-grey">
-                    I am a Frontend Developer living in Barcelona. I was born
-                    and raised in Alaior, Menorca and I moved to Barcelona to
-                    study Software Engineering. I am highly organised,
-                    efficient, self-starter and problem-solving software
-                    engineer focusing on Web Development. I am always looking
-                    for the next challenge whether it be within programming or
-                    my other areas of interest. I have a few different passions:
-                    programming, running, hiking, climbing and cooking.
+                    I am a Frontend Developer living in Valencia. I was born and
+                    raised in Alaior, Menorca and I moved to Barcelona to study
+                    Software Engineering. I am highly organised, efficient,
+                    self-starter and problem-solving software engineer focusing
+                    on Web Development. I am always looking for the next
+                    challenge whether it be within programming or my other areas
+                    of interest. I have a few different passions: programming,
+                    running, hiking, climbing and cooking.
                   </p>
                   <br></br>
                   <p className="is-4 has-text-grey">
